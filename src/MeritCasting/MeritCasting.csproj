@@ -5,6 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="wwwroot\.well-known\stellar.toml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Append.Blazor.Notifications" Version="1.0.1" />
     <PackageReference Include="Blazored.LocalStorage" Version="3.0.0" />
 
